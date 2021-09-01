@@ -1,0 +1,29 @@
+{
+  "name": "rissa_bot",
+  "version": "1.0.0",
+  "description": "A NLP based chat bot that can be your girlfrie... i mean can accompany you",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ikkehman",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ikkehman/rissa_bot"
+  },
+  "bugs": {
+    "url": "https://github.com/ikkehman/rissa_bot/issues"
+  },
+  "homepage": "https://github.com/ikkehman/rissa_bot",
+  "license": "ISC",
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.14.2",
+    "app-root-path": "^3.0.0",
+    "axios": "^0.21.0",
+    "chalk": "^4.1.0",
+    "lowdb": "^1.0.0",
+    "moment-timezone": "^0.5.31",
+    "react": "^17.0.1",
+    "sharp": "^0.27.1"
+  }
+}
